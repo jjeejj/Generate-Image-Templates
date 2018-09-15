@@ -5,5 +5,5 @@
 
 源码文件夹： [concise](./concise)
 
-![concise](./concise/concise.png)
+<img src="./concise/concise.png" alt="concise" style="width:300px">
 
