@@ -1,0 +1,24 @@
+{
+  "name": "Generate-Image-Templates",
+  "version": "1.0.0",
+  "description": "生成分享图片的模版",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer-generate-image": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjeejj/Generate-Image-Templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjeejj/Generate-Image-Templates/issues"
+  },
+  "homepage": "https://github.com/jjeejj/Generate-Image-Templates#readme"
+}
