@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-size: 14px;
+        }
+        .container{
+            margin: 20px;
+            border: 2px dashed #FFDA99;
+            text-align: center;
+        }
+        header{
+            padding: 20px;
+            color: #0F4A8A;
+        }
+        header h1{
+            font-size: 32px;
+            font-family: 华文行楷;
+        }
+        .banner{
+            margin: 20px;
+        }
+        .img-box{
+            padding: 10px;
+            border: 2px solid #FFDA99;
+            border-radius: 8px;
+        }
+        .img{
+            max-width: 100%;
+            display: block;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .footer{
+            color: #0F4A8A;
+            font-size: 22px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .footer p{
+            margin-bottom: 20px;
+            font-family: 华文新魏;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="text-right">
+            <h1>六月你好</h1>
+        </header>
+        <section class="banner">
+            <div class="img-box">
+                <img class="img" src="./concise_backgroud.png" alt="">
+            </div>
+        </section>
+        <footer class="text-center footer">
+            <p>若岁月静好,</p>
+            <p>那就颐养身心;</p>
+            <p>若时光阴暗,</p>
+            <p>那就多谢历练。</p>
+        </footer>
+
+        <p style="color:#28c185">该卡片由微信小程序《卡片分享生成工具》生成</p>
+    </div>
+
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 10*(clientWidth / 375) + 'px';
+                };
+            recalc();
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+        })(document, window);
+    </script>
+</body>
+</html>
