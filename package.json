@@ -4,7 +4,7 @@
   "description": "生成分享图片的模版",
   "main": "index.js",
   "dependencies": {
-    "puppeteer-generate-image": "^1.0.3"
+    "puppeteer-generate-image": "^1.0.4"
   },
   "devDependencies": {},
   "scripts": {
